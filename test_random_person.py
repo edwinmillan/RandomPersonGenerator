@@ -57,7 +57,7 @@ def test_ssn_generator():
 
 
 def test_dob_generator():
-    dob = random_person.generate_dob()
+    dob = random_person.generate_date_of_birth()
     month, day, year = dob.split('/')
     assert type(dob) == str
     assert int(month) in range(1, 12)

@@ -40,7 +40,7 @@ def generate_dept_num():
     return random.choice(range(1, 100000))
 
 
-def generate_dob():
+def generate_date_of_birth():
     month = random.choice(range(1, 12))
     day = random.choice(range(1, 29))  # Not going to implement any true date logic
     year = random.choice(range(1900, 2017))
